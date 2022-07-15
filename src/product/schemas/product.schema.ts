@@ -6,7 +6,7 @@ export const ProductSchema = new Schema({                  //en este punto se re
     description: String,
     availability: Boolean,
     price: Number,
-    createDate: {
+    date: {
         type: Date,                   
         default: Date.now     //para generar en automatico la fecha 
     }
